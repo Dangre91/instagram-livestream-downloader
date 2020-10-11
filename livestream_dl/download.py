@@ -44,7 +44,7 @@ from .utils import (
 from .comments import CommentsDownloader
 
 
-__version__ = '0.3.8'
+__version__ = '0.3.9'
 
 USERNAME_ENV_KEY = 'IG_LOGIN_USERNAME'
 PASSWORD_ENV_KEY = 'IG_LOGIN_PASSWORD'
