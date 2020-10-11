@@ -185,7 +185,7 @@ class UserConfig(object):
 
 def check_for_updates(current_version):
     try:
-        repo = 'taengstagram/instagram-livestream-downloader'
+        repo = 'dangre91/instagram-livestream-downloader'
         res = compat_urllib_request.urlopen('https://api.github.com/repos/%s/releases' % repo)
         json_res = res.read().decode('utf-8')
         releases = json.loads(json_res)
